@@ -10,7 +10,6 @@ public class UserInput {
 
     ArrayList<Integer> input() {
         result.clear();
-        System.out.println("숫자를 입력해주세요 : ");
         String inputstring = Console.readLine();
 
         String[] strArray = inputstring.split("");

@@ -1,16 +1,17 @@
 package baseball;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Computer {
-    ArrayList<Integer> numbers;
+    List<Integer> numbers;
 
     Computer() {
         Generate3Numbers generator = new Generate3Numbers();
         numbers = generator.create();
     }
 
-    ArrayList<Integer> getNumbers() {
+    List<Integer> getNumbers() {
         return numbers;
     }
 }

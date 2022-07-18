@@ -1,15 +1,16 @@
 package baseball;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class User {
-    ArrayList<Integer> numbers = new ArrayList<>();
+    List<Integer> numbers;
     UserInput userInput = new UserInput();
 
     void myInput() {
         numbers = userInput.input();
     }
-    ArrayList<Integer> getNumbers() {
+    List<Integer> getNumbers() {
         return this.numbers;
     }
 }

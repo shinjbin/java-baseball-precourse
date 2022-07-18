@@ -1,16 +1,14 @@
 package baseball;
 
 import java.util.ArrayList;
-import java.util.Random;
+import java.util.List;
+
+import camp.nextstep.edu.missionutils.Randoms;
 
 public class Generate3Numbers {
-    Random random = new Random();
-    ArrayList<Integer> output = new ArrayList<Integer>();
+    final List<Integer> random3numbers = Randoms.pickUniqueNumbersInRange(1,9, 3);
 
-    public ArrayList<Integer> create() {
-        for (int i = 0; i < 3; i++) {
-            output.add(random.nextInt(9) + 1);
-        }
-        return output;
+    public List<Integer> create() {
+        return random3numbers;
     }
 }

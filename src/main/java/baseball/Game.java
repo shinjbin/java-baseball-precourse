@@ -1,6 +1,6 @@
 package baseball;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Game {
     User user = new User();
@@ -9,10 +9,11 @@ public class Game {
 
     boolean Check() {
         strike = ball = 0;
-        ArrayList<Integer> userNumbers = user.getNumbers();
-        ArrayList<Integer> computerNumbers = computer.getNumbers();
+        List<Integer> userNumbers = user.getNumbers();
+        List<Integer> computerNumbers = computer.getNumbers();
 
         if (userNumbers.equals(computerNumbers)) {
+            strike = 3;
             return true;
         }
 
@@ -42,6 +43,7 @@ public class Game {
 
     void Start() {
         boolean finish = false;
+        System.out.println(computer.getNumbers());
 
         while (!finish) {
             this.Input();
