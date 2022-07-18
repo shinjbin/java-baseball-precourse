@@ -9,7 +9,7 @@ public class UserInputException extends IllegalArgumentException {
         return str.length() != 3;
     }
 
-    private boolean duplicationCheck(String str) {
+    boolean duplicationCheck(String str) {
         String[] strArray = str.split("");
         Set<String> strSet = new HashSet<>(Arrays.asList(strArray));
 

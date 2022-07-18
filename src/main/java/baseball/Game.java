@@ -38,7 +38,7 @@ public class Game {
         else if (strike == 0)
             System.out.printf("%d 볼\n", ball);
         else
-            System.out.printf("%d 볼 %d 스트라이크", ball, strike);
+            System.out.printf("%d 볼 %d 스트라이크\n", ball, strike);
     }
 
     void Start() {
