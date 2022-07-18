@@ -1,5 +1,12 @@
 # 미션 - 숫자 야구 게임
 
+## 구현 기능 목록
+
+- 컴퓨터 - 랜덤 3자리 숫자 저장
+- 유저 - 3자리 숫자 입력
+- 게임 - 유저와 컴퓨터 간 숫자 비교
+
+
 ## 🔍 진행방식
 
 - 미션은 **기능 요구사항, 프로그래밍 요구사항, 과제 진행 요구사항** 세 가지로 구성되어 있다.
@@ -128,3 +135,6 @@
 ## 📝 License
 
 This project is [MIT](https://github.com/woowacourse/java-baseball-precourse/blob/master/LICENSE) licensed.
+
+
+## 
