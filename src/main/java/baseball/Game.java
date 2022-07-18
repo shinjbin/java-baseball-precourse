@@ -43,7 +43,6 @@ public class Game {
 
     void Start() {
         boolean finish = false;
-        System.out.println(computer.getNumbers());
 
         while (!finish) {
             this.Input();
