@@ -14,9 +14,7 @@ public class UserInput {
         String inputstring = Console.readLine();
 
         String[] strArray = inputstring.split("");
-        for (String s : strArray) {
-            result.add(Integer.parseInt(s));
-        }
+        for (String s : strArray) result.add(Integer.parseInt(s));
 
         return result;
     }
