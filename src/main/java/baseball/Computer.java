@@ -3,10 +3,14 @@ package baseball;
 import java.util.ArrayList;
 
 public class Computer {
-    public ArrayList<Integer> numbers = new ArrayList<>();
+    ArrayList<Integer> numbers;
 
     Computer() {
-        Generate3Numbers generater = new Generate3Numbers();
-        numbers = generater.create();
+        Generate3Numbers generator = new Generate3Numbers();
+        numbers = generator.create();
+    }
+
+    ArrayList<Integer> getNumbers() {
+        return numbers;
     }
 }
